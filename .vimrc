@@ -1,6 +1,8 @@
 " --------------------------------------------
 " Text Formatting 
 " --------------------------------------------
+execute pathogen#infect()
+
 set nowrap
 set nocompatible
 set bs=2
