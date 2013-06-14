@@ -3,6 +3,7 @@
 " --------------------------------------------
 execute pathogen#infect()
 
+set paste
 set nowrap
 set nocompatible
 set bs=2
