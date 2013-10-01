@@ -1,8 +1,6 @@
 " --------------------------------------------
 " Text Formatting 
 " --------------------------------------------
-execute pathogen#infect()
-
 set paste
 set nowrap
 set nocompatible
@@ -29,9 +27,16 @@ set tabstop=2
 set lbr
 set tw=500
 
-filetype on
+filetype off
 filetype indent on
 filetype plugin on
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+
+Bundle 'less.vim'
+Bundle 'jade.vim'
 
 set autoindent
 
