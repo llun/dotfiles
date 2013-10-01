@@ -28,15 +28,17 @@ set lbr
 set tw=500
 
 filetype off
-filetype indent on
-filetype plugin on
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
-Bundle 'less.vim'
-Bundle 'jade.vim'
+Bundle 'digitaltoad/vim-jade.git'
+Bundle 'pangloss/vim-javascript'
+Bundle 'groenewege/vim-less'
+Bundle 'cakebaker/scss-syntax.vim'
+
+filetype indent plugin on
 
 set autoindent
 
