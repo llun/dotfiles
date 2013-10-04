@@ -113,6 +113,9 @@ noremap <Leader>/ :NERDTreeToggle<CR>
 map <F3> :set number!<CR>
 map <F4> :set invpaste<CR>
 cnoremap q1 q!
+cnoremap Q q
+cnoremap Wq wq
+cnoremap WQ wq
 
 " CtrlP
 let g:ctrlp_show_hidden = 0
@@ -121,5 +124,3 @@ let g:ctrlp_custom_ignore = {
   \,'file': '\v\.(swp|jar|png|jpg|gif|tgz|gz|pdf)$'
   \ }
 
-" Airline
-let g:airline#extensions#tabline#enabled = 1
