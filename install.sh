@@ -5,15 +5,11 @@ if test "$1" = "osx"; then
   ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
   brew install appledoc
   brew install androidsdk
-  brew install zsh
   brew install tmux
-  brew install imagemagick
   # Link all ssh configurations and keys back
   ln -s /Users/llun/Dropbox/Keys/ssh /Users/llun/.ssh
   # Install nvm and node.js
   curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-  # Install rvm and ruby 1.9.3
-  curl -L https://get.rvm.io | bash -s --autolibs=enabled --ruby=1.9.3
 
   #Copy environments back
 
