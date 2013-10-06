@@ -68,6 +68,8 @@ set expandtab
 set smarttab
 set shiftwidth=2
 set tabstop=2
+set fdm=syntax
+set nofen
 
 set nowrap
 set autoindent
