@@ -9,15 +9,20 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
-Bundle 'digitaltoad/vim-jade.git'
-Bundle 'pangloss/vim-javascript'
-Bundle 'groenewege/vim-less'
-Bundle 'cakebaker/scss-syntax.vim'
+" Functionality
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim.git'
 Bundle 'bling/vim-bufferline'
 Bundle 'bling/vim-airline'
+
+" Syntaxs
+Bundle 'digitaltoad/vim-jade.git'
+Bundle 'pangloss/vim-javascript'
+Bundle 'groenewege/vim-less'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'plasticboy/vim-markdown.git'
+Bundle 'kchmck/vim-coffee-script'
 
 "
 " General
@@ -84,6 +89,13 @@ set tw=500
 set laststatus=2
 
 "
+" MacVim
+"
+if has("gui_macvim")
+  set guifont=menlo:h14
+endif
+
+"
 " Mapping Key
 "
 let mapleader=","
@@ -126,3 +138,7 @@ let g:ctrlp_custom_ignore = {
   \,'file': '\v\.(swp|jar|png|jpg|gif|tgz|gz|pdf)$'
   \ }
 
+" Specific filetype 
+" Markdown
+let g:vim_markdown_folding_disabled=1
+au FileType mkd set shiftwidth=4 tabstop=4 wrap
