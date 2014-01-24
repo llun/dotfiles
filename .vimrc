@@ -19,6 +19,7 @@ Bundle 'bling/vim-airline'
 " Syntaxs
 Bundle 'digitaltoad/vim-jade.git'
 Bundle 'pangloss/vim-javascript'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'plasticboy/vim-markdown.git'
@@ -73,7 +74,7 @@ set expandtab
 set smarttab
 set shiftwidth=2
 set tabstop=2
-set fdm=syntax
+set fdm=manual
 set nofen
 
 set nowrap
