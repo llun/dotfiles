@@ -25,6 +25,10 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'plasticboy/vim-markdown.git'
 Bundle 'kchmck/vim-coffee-script'
 
+" Dash
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
+
 "
 " General
 "
@@ -143,3 +147,7 @@ let g:ctrlp_custom_ignore = {
 " Markdown
 let g:vim_markdown_folding_disabled=1
 au FileType mkd set shiftwidth=4 tabstop=4 wrap
+
+" EJS
+au FileType ejs set filetype=html
+

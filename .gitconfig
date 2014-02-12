@@ -21,3 +21,7 @@
 	ui = auto
 [core]
   editor = vim
+	excludesfile = /Users/llun/.gitignore
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
