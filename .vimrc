@@ -25,6 +25,7 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'plasticboy/vim-markdown.git'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'Blackrush/vim-gocode'
+Bundle 'derekwyatt/vim-scala'
 
 " Dash
 Bundle 'rizzatti/funcoo.vim'
