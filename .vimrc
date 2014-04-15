@@ -27,9 +27,6 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'derekwyatt/vim-scala'
 
-" Dash
-Bundle 'rizzatti/funcoo.vim'
-Bundle 'rizzatti/dash.vim'
 
 "
 " General
