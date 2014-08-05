@@ -150,3 +150,6 @@ au FileType mkd set shiftwidth=4 tabstop=4 wrap
 " EJS
 au FileType ejs set filetype=html
 
+" Go
+au FileType go set noexpandtab tabstop=4 shiftwidth=4
+
