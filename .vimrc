@@ -26,6 +26,7 @@ Bundle 'plasticboy/vim-markdown.git'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'derekwyatt/vim-scala'
+Bundle 'yosssi/vim-ace.git'
 
 
 "
