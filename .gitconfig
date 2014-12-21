@@ -1,33 +1,13 @@
 [user]
 	name = Maythee Anegboonlap
 	email = null@llun.in.th
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[diff]
-	tool = Kaleidoscope
 [difftool]
 	prompt = false
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
 [mergetool]
 	prompt = false
 	keepBackup = true
-[merge]
-	tool = Kaleidoscope
-[push]
-	default = simple
-[color]
-	ui = auto
 [core]
   editor = vim
-	excludesfile = /Users/llun/.gitignore
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
