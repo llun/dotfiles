@@ -2,4 +2,4 @@
 if [ ! -f dropbox.tgz ]; then
   curl -L https://www.dropbox.com/download?plat=lnx.x86_64 -o dropbox.tgz
 fi
-docker build -t llun/dropbox:1.0 .
+docker build -t llun/dropbox:latest .

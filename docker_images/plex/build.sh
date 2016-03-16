@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t llun/plex:1.0 .
+docker build -t llun/plex:latest .
