@@ -1,3 +1,5 @@
 FROM debian:latest
 MAINTAINER Maythee Anegboonlap<null@llun.me>
-RUN apt-get update
+WORKDIR /opt/labs
+RUN apt-get update\
+  && apt-get install aptitude vim build-essential curl
