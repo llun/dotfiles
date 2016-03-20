@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t labs .
+docker build -t llun/labs:latest .
