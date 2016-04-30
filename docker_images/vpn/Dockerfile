@@ -1,9 +1,12 @@
-FROM debian
-MAINTAINER Maythee Anegboonlap <null@llun.in.th>
+FROM debian:latest
+MAINTAINER Maythee Anegboonlap <null@llun.me>
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-  openvpn \
-  pptp-linux
+ADD server.conf /etc/openvpn/
+ADD client.conf /etc/openvpn/
 
-EXPOSE 1194
+RUN apt-get update && \
+  apt-get -y install apt-utils easy-rsa liblzo2-2 libpkcs11-helper1 opensc opensc-pkcs11\
+  openvpn 
+
+EXPOSE 22
 

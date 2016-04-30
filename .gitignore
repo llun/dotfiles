@@ -5,3 +5,4 @@ dropbox.tgz
 env
 node-*.tar.xz
 docker_images/ride/ride
+docker_images/vpn/keys
