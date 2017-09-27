@@ -19,11 +19,9 @@ Bundle 'bling/vim-airline'
 " Syntaxs
 Bundle 'digitaltoad/vim-jade.git'
 Bundle 'pangloss/vim-javascript'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'plasticboy/vim-markdown.git'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'Blackrush/vim-gocode'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'yosssi/vim-ace.git'
@@ -143,7 +141,7 @@ let g:ctrlp_custom_ignore = {
   \,'file': '\v\.(swp|jar|png|jpg|gif|tgz|gz|pdf)$'
   \ }
 
-" Specific filetype 
+" Specific filetype
 " Markdown
 let g:vim_markdown_folding_disabled=1
 au FileType mkd set shiftwidth=4 tabstop=4 wrap
