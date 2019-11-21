@@ -130,7 +130,6 @@ noremap <Leader>/ :NERDTreeToggle<CR>
 map <F3> :set number!<CR>
 map <F4> :set invpaste<CR>
 cnoremap q1 q!
-cnoremap Q q
 cnoremap Wq wq
 cnoremap WQ wq
 
