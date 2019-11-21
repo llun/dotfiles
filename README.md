@@ -1,6 +1,6 @@
-#shell environment
+# shell environment
 
-##OSX
+## OSX
 
 Run `sh install.sh osx`
 
@@ -11,7 +11,7 @@ Run `sh install.sh osx`
  - oh-my-zsh
  - .vimrc
 
-##Debian environment
+## Debian environment
 
 Run `sh install.sh debian`
 
